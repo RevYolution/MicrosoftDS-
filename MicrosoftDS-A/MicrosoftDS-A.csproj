@@ -6,4 +6,7 @@
     <RootNamespace>MicrosoftDS_A</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="BubbleSort\" />
+  </ItemGroup>
 </Project>
