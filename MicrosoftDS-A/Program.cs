@@ -1,4 +1,5 @@
 ﻿using System;
+using MicrosoftDS_A.BubbleSort;
 
 namespace MicrosoftDS_A
 {
@@ -9,8 +10,8 @@ namespace MicrosoftDS_A
             Console.WriteLine("Hello World!");
             //ExponentCalculator();
             //CalculateCylinderVolume();
-            BubbleSort();
-            
+            //BubbleSort();
+            BubbleSort.BubbleSort.Sort();
 
         }
         // Write an Algorithm, Pseudocode, and Code for calculating volume of a cyclinder.
@@ -71,35 +72,36 @@ namespace MicrosoftDS_A
             Console.WriteLine($"Your result is {result}");
         }
 
-        static void BubbleSort()
-        {
-            int[] nums = { 5, 10, 3, 2, 4 };
+        //static void BubbleSort()
+        //{
+        //    int[] nums = { 5, 10, 3, 2, 4 };
 
-            Console.WriteLine("Before: 5, 10, 3, 2, 4");
+        //    Console.WriteLine("Before: 5, 10, 3, 2, 4");
 
-            bool swapped;
-            do
-            {
-                swapped = false;
-                for (int i = 0; i < nums.Length - 1; i++)
-                {
-                    if (nums[i] > nums[i + 1])
-                    {
-                        int temp = nums[i + 1];
-                        nums[i + 1] = nums[i];
-                        nums[i] = temp;
-                        swapped = true;
-                    }
-                }
-            } while (swapped == true);
+        //    bool swapped;
+        //    do
+        //    {
+        //        swapped = false;
+        //        for (int i = 0; i < nums.Length - 1; i++)
+        //        {
+        //            if (nums[i] > nums[i + 1])
+        //            {
+        //                int temp = nums[i + 1];
+        //                nums[i + 1] = nums[i];
+        //                nums[i] = temp;
+        //                swapped = true;
+        //            }
+        //        }
+        //    } while (swapped == true);
 
-            Console.Write("After: ");
-            for (int i = 0; i < nums.Length; i++)
-            {
-                Console.Write("{0}, ", nums[i]);
-            }
-            Console.ReadLine();
-        }
+        //    Console.Write("After: ");
+        //    for (int i = 0; i < nums.Length; i++)
+        //    {
+        //        Console.Write("{0}, ", nums[i]);
+        //    }
+        //    Console.ReadLine();
+        //}
+
     }
 
 }
