@@ -1,5 +1,4 @@
 ﻿using System;
-using MicrosoftDS_A.BubbleSort;
 
 namespace MicrosoftDS_A
 {
@@ -11,7 +10,8 @@ namespace MicrosoftDS_A
             //ExponentCalculator();
             //CalculateCylinderVolume();
             //BubbleSort();
-            BubbleSort.BubbleSort.Sort();
+            //BubbleSort.BubbleSort.Sort();
+            InsertionSort.InsertionSort.Sort();
 
         }
         // Write an Algorithm, Pseudocode, and Code for calculating volume of a cyclinder.
